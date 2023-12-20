@@ -1,0 +1,78 @@
+/* Add these styles to your CSS file */
+
+.form-builder {
+  display: flex;
+  margin: 20px;
+}
+
+.form-builder-left {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.form-builder-right {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.form-builder-left-widgets,
+.form-builder-left-widgets-body {
+  margin-top: 10px;
+}
+
+.form-builder-left-widgets-body-item {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  cursor: move;
+}
+
+.form-builder-right-body {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.form-builder-right-body-fields-item {
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.form-builder-right-body-fields-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-builder-right-body-fields-item-header-actions {
+  cursor: pointer;
+}
+
+.form-builder-right-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* Add these styles to your CSS file */
+
+.form-builder-right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.form-builder-right-header-input {
+  margin-bottom: 10px; /* Add margin to create space between inputs */
+}
+
+/* Reset radio button appearance to default */
+input[type="radio"] {
+  -webkit-appearance: radio;
+  appearance: radio;
+}
+

@@ -1,0 +1,39 @@
+/* Add these styles to your viewForm.css file */
+
+
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form input fields */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style radio buttons */
+  /*the radio button should be on the far right of the label*/
+  input[type="radio"] {
+    margin-right: 5px;
+    float: right;
+  }
+  
+  /* Style the submit button */
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the form section */
+  form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }

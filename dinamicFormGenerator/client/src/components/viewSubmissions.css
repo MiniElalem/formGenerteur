@@ -1,0 +1,31 @@
+/* Add these styles to your CSS file for ViewSubmissions */
+
+/* Overall container styles */
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Form Fields and Submissions list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Field details styles */
+  li div {
+    margin-left: 20px;
+  }
+  
+  /* Add more specific styles as needed based on your design preferences */
+  
